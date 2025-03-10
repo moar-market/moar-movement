@@ -137,6 +137,14 @@ module moar::pool {
         abort 0
     }
 
+    public fun deposit(
+        _receiver: address,
+        _pool_id: u64,
+        _deposit_asset: FungibleAsset,
+    ) {
+        abort 0
+    }
+
     public entry fun start_unbonding(
         _lp: &signer,
         _pool_id: u64,

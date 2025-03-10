@@ -1,0 +1,12 @@
+[package]
+name = "moar"
+version = "0.1.2"
+upgrade_policy = "compatible"
+authors = ["Moar Market (tech@moar.market)"]
+
+[addresses]
+aptos_framework = "0x1"
+moar = "0xd75e7e29e673a3483d25c7a3dcf7748c66fc929ffd5b8ec229d353579b68c4cb"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/movementlabsxyz/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "movement" }
